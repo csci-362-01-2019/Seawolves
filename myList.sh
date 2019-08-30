@@ -25,7 +25,8 @@ do
 	fi
 done
 
-#should call cd .. the same number of slashes to get past home directory
+#should call cd .. the same number of slashes to pass home directory
+#numOfSlashes - 2 to get home directory
 for ((i=0;i<numOfSlashes - 2;i++))
 do
 	#echo "in loop"
