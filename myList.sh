@@ -26,7 +26,7 @@ do
 done
 
 #should call cd .. the same number of slashes to get past home directory
-for ((i=0;i<numOfSlashes;i++))
+for ((i=0;i<numOfSlashes - 2;i++))
 do
 	#echo "in loop"
 	cd ..
