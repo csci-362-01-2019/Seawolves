@@ -1,48 +1,44 @@
 #! bash
 
-# myList.sh variable.html - creates html document, variable, listing the top 
+# myList.sh variable.html - creates html document, variable, listing the contents of the top level directory
 # call explicitly with "bash ./myList.sh variable.html"
 
 #Seawolves
 #AJ, Shaina, David
 
+
 filename=$1
-i=1
+
+#count number of slashes in path
 numOfSlashes=0
 slash="/"
-
-#getting top
-#Attempt to count slashes, subtract 2 to get number of traversals to parent necessary
-#Only problem seems to be identifying slashes-- or the first loop doesnt run correctly
 thisPath=$(pwd)
 length=$(expr length $thisPath)
-echo $thisPath
-echo $slash
-for i in {1..$length}
+
+for ((i=1;i<length;i++))
 do
-	echo $i
 	letter=$(expr substr $thisPath $i 1)
-	echo $letter
 	if [ "$letter" == "$slash" ]
 	then
+		#echo "found slash"
 		numOfSlashes=$(($numOfSlashes + 1))
 	fi
 done
-numOfTraversals=$(($numOfSlashes - 2))
-echo $numOfTraversals
-i=0
-for i in {0..$numOfTraversals}
+
+#should call cd .. the same number of slashes to get past home directory
+for ((i=0;i<numOfSlashes;i++))
 do
-	echo "in loop"
+	#echo "in loop"
 	cd ..
 done
 
 #get contents
 contents=$(ls)
 
-#could format contents?
+#go back down to create html file with permission to do so
+cd $thisPath
 
-#creating and writing html file--everything below here is 100%
+#creating and writing html file
 cat <<- _Output > $filename
 	<html>
 	<head>
@@ -53,7 +49,6 @@ cat <<- _Output > $filename
 
 	<body>
 	<h1>Results:</h1>
-	The current path is $thisPath.<br>
 	Contents of Top Level:<br>
 	$contents
 	</body>
