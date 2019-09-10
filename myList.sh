@@ -8,7 +8,7 @@
 
 
 filename=$1
-
+: <<'END'
 #count number of slashes in path
 numOfSlashes=0
 slash="/"
@@ -32,12 +32,12 @@ do
 	#echo "in loop"
 	cd ..
 done
-
+END
 #get contents
 contents=$(ls)
 
 #go back down to create html file with permission to do so
-cd $thisPath
+#cd $thisPath
 
 #creating and writing html file
 cat <<- _Output > $filename
