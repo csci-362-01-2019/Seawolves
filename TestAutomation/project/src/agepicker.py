@@ -45,7 +45,7 @@ _SECONDS_PER_YEAR = 365 * 24 * 60 * 60.
 
 def calculate_birth_timestamp(age):
     age_in_seconds = age * _SECONDS_PER_YEAR
-    birth_timestamp = int(time.time() - age_in_seconds)
+    birth_timestamp = int(1500000000 - age_in_seconds)
     return birth_timestamp
 
 
@@ -319,3 +319,6 @@ class AgePicker(Gtk.Grid):
         for i in range(len(self._group_labels.AGES)):
             self._pickers[i].set_icon(
                 self._group_labels.ICONS[i][gender_index])
+                
+                
+print(calculate_birth_timestamp(5))
