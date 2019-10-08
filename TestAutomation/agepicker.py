@@ -14,18 +14,19 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import gi
+gi.require_version('Gtk', '3.0')
+from gi.repository import Gtk
+from gi.repository import Gdk
+from gi.repository import Gio
+from gi.repository import GObject
 
-#from gi.repository import Gtk
-#from gi.repository import Gdk
-#from gi.repository import Gio
-#from gi.repository import GObject
+import os
+import json
+import time
+import math
 
-#import os
-#import json
-#import time
-#import math
-
-#from gettext import gettext as _
+from gettext import gettext as _
 
 #from sugar3.graphics.icon import EventIcon
 #from sugar3.graphics import style
@@ -33,13 +34,13 @@
 
 #from jarabe.intro.genderpicker import GENDERS
 
-_group_labels = None
+#_group_labels = None
 _SECONDS_PER_YEAR = 365 * 24 * 60 * 60.
-_DEFAULT_PROMPT = _('Select grade:')
-_DEFAULT_LABELS = [_('Preschool'), _('Kindergarten'), _('1st Grade'),
-                   _('2nd Grade'), _('3rd Grade'), _('4th Grade'),
-                   _('5th Grade'), _('6th Grade'), _('7th Grade'),
-                   _('High School'), _('Adult')]
+#_DEFAULT_PROMPT = _('Select grade:')
+#_DEFAULT_LABELS = [_('Preschool'), _('Kindergarten'), _('1st Grade'),
+                  # _('2nd Grade'), _('3rd Grade'), _('4th Grade'),
+                  # _('5th Grade'), _('6th Grade'), _('7th Grade'),
+                  # _('High School'), _('Adult')]
 
 
 def calculate_birth_timestamp(age):
