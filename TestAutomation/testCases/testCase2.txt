@@ -3,4 +3,4 @@ accepts zero as an input and returns timestamp
 agepicker.py
 calculate_birth_timestamp(age)
 0
-
+1500000000
