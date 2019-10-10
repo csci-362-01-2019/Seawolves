@@ -1,0 +1,6 @@
+2
+accepts zero as an input and returns timestamp
+agepicker.py
+calculate_birth_timestamp(age)
+0
+
