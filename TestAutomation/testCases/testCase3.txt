@@ -1,0 +1,6 @@
+3
+this method should not accept a negative integer
+agepicker.py
+calculate_birth_timestamp(age)
+-5
+fail
