@@ -20,8 +20,8 @@
 # Change log:
 #    2007-07-03: rwh, first version
 
-from gettext import gettext as _
-from numerals import local as _n, standard as _s
+#from gettext import gettext as _
+#from numerals import local as _n, standard as _s
 import logging
 _logger = logging.getLogger('Calculate')
 
@@ -32,16 +32,16 @@ from gi.repository import Gdk
 import base64
 
 import sugar3.profile
-from sugar3.graphics.xocolor import XoColor
+#from sugar3.graphics.xocolor import XoColor
 
-from shareable_activity import ShareableActivity
-from layout import CalcLayout
-from mathlib import MathLib
-from astparser import AstParser, ParserError, ParseError, RuntimeError
-from svgimage import SVGImage
+#from shareable_activity import ShareableActivity
+#from layout import CalcLayout
+#from mathlib import MathLib
+#from astparser import AstParser, ParserError, ParseError, RuntimeError
+#from svgimage import SVGImage
 
-from decimal import Decimal
-from rational import Rational
+#from decimal import Decimal
+#from rational import Rational
 
 
 def findchar(text, chars, ofs=0):
