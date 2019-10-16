@@ -320,5 +320,3 @@ class AgePicker(Gtk.Grid):
             self._pickers[i].set_icon(
                 self._group_labels.ICONS[i][gender_index])
                 
-                
-print(calculate_birth_timestamp(5))
