@@ -1,6 +1,6 @@
 8
 this method takes in a zero as input and ouputs a zero
-agepicker.py
-calculate_age(birth_timestamp)
+agepicker
+agepicker.calculate_age
 0
 0
