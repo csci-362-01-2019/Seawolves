@@ -15,8 +15,9 @@ cd testCases
 
 # array where the files of the testCases are kept
 testCaseArray=($(ls))
-echo $testCaseArray
-echo ${testCaseArray[3]}
+
+#echo ${testCaseArray[*]}
+#echo ${testCaseArray[4]}
 # array where results of tests are stored
 results=()
 
@@ -30,7 +31,7 @@ do
 	# input=testCase0.txt if you only want to do a specific case
 
 	j=0
-	#reading lines of testCase
+	# reading lines of testCase
 	while IFS= read -r line
 	do
 		if [ $j -eq 0 ]
@@ -63,15 +64,15 @@ do
 	driverOutput=$(python -c "import $driver; print($driverMethod($testInput))")
 	# echo $driverOutput
 
-	#compare numbers
+	# compare numbers
 	if [ $driverOutput = $oracle ]
 		then result=("Pass")
 	else result=("FAIL!")
 	fi
-	#compare strings use = instead
-
+	# compare strings use = instead
+	# result="whatever"
 	# store results
-	results+=("$testCase --- $driverMethod --- $result <br>")
+	results+=("testCase$testCase --- $driverMethod --- $result <br>")
 
 	#goto cases folder
 	cd ..
@@ -95,7 +96,7 @@ cat <<- _Output > $FILENAME
 
 	<body>
 	<h1>Test Results:</h1>
-	$results
+	${results[*]}
 	</body>
 	</html>
 _Output
