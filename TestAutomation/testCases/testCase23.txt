@@ -1,0 +1,6 @@
+23
+this method takes in a negative number and outputs an error
+functions.py
+factorial(n)
+-5
+error

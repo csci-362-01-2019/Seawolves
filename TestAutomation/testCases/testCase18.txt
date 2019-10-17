@@ -1,0 +1,6 @@
+18
+this method takes in a non number and int and outputs an error
+functions.py
+gcd(a, b)
+a, 5
+error

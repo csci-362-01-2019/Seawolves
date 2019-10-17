@@ -1,0 +1,5 @@
+12
+this method takes in a null character, and set of characters, and an offset
+calculate.py
+findchar(text, chars, ofs=0)
+null, [a,b,c], 0

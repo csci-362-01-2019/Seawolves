@@ -1,0 +1,5 @@
+13
+this method takes in a character not in set of chars, and set of characters, and an offset
+calculate.py
+findchar(text, chars, ofs=0)
+a, [b,c,d], 0

@@ -1,0 +1,6 @@
+17
+this method takes in a negative number and outputs an error
+functions.py
+gcd(a, b)
+-3, 5
+error

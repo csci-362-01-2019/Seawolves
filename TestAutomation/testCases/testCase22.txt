@@ -1,0 +1,6 @@
+22
+this methods takes in a float and outputs an error
+functions.py
+factorial(n)
+1.5
+error

@@ -1,0 +1,6 @@
+20
+this methods takes in two negative numbers and outputs a zero
+functions.py
+gcd(a, b)
+-1, -2
+error
