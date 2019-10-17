@@ -3,4 +3,4 @@ this method accepts a value that is more than what can fit in an integer
 agepicker
 agepicker.calculate_birth_timestamp
 3000000000
--946079998500000000
+-94607998500000000

@@ -72,7 +72,7 @@ do
 	# compare strings use = instead
 	# result="whatever"
 	# store results
-	results+=("testCase$testCase --- $driverMethod --- $result <br>")
+	results+=("testCase$testCase --- $driverMethod --- out - $driverOutput - oracle - $oracle --- $result <br>")
 
 	#goto cases folder
 	cd ..
@@ -82,7 +82,7 @@ done
 
 # goto results folder, I didn't here. I went to script
 cd ..
-cd testCasesExcecutables
+#cd testCasesExcecutables
 
 # produce html document
 FILENAME=testResults.html
