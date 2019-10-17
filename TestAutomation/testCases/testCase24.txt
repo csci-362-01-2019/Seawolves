@@ -1,6 +1,6 @@
 24
 this method takes in a non-number and outputs an error
-functions.py
-factorial(n)
+functions
+functions.factorial
 zero
 error

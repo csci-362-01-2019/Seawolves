@@ -1,6 +1,6 @@
 8
 this method accepts a positive integer
-agepicker.py
-calculate_age(birth_timestamp)
+agepicker
+agepicker.calculate_age
 120000
 

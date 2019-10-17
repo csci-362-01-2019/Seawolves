@@ -1,6 +1,6 @@
 17
 this method takes in a negative number and outputs an error
-functions.py
-gcd(a, b)
+functions
+functions.gcd
 -3, 5
 error

@@ -1,6 +1,6 @@
 2
 accepts zero as an input and returns timestamp
-agepicker.py
-calculate_birth_timestamp(age)
+agepicker
+agepicker.calculate_birth_timestamp
 0
 1500000000

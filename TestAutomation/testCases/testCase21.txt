@@ -1,6 +1,6 @@
 21
 this method takes in an int and outputs the factorial of the int
-functions.py
-factorial(n)
+functions
+functions.factorial
 3
 6

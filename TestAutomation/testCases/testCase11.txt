@@ -1,7 +1,7 @@
 11
 this method takes in a character, and empty set of characters, and an offset
-calculate.py
-findchar(text, chars, ofs=0)
+calculate
+calculate.findchar
 "", 'a'
 -1
 

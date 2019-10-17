@@ -1,6 +1,6 @@
 6
 this method does not accept a negative number
-agepicker.py
-calculate_age(birth_timestamp)
+agepicker
+agepicker.calculate_age
 -1000000
 

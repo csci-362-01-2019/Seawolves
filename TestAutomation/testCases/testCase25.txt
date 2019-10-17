@@ -1,6 +1,6 @@
 25
 this method takes in a zero and outputs a 1
-functions.py
-factorial(n)
+functions
+functions.factorial
 0
 1

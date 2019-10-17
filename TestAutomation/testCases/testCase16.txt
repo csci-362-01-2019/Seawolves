@@ -1,6 +1,6 @@
 16
 this method takes in 2 ints and output another int
-functions.py
-gcd(a, b)
+functions
+functions.gcd
 5, 10
 5

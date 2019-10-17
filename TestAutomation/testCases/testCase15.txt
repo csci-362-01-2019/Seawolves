@@ -1,6 +1,6 @@
 15
 this method takes in a string with one paren in the middle and a character
-functions.py
-findchars(text, chars, ofs=0)
+calculate
+calculate.findchars
 "he(llo", 'l'
 -1
