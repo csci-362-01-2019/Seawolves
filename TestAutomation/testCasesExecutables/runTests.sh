@@ -1,9 +1,13 @@
 #! bash
 
 # AJ, Shaina, David from Seawolves
-# call explicitly with "bash ./runTests.sh"
+# call explicitly with "bash ./runTests.sh" from testCasesExcecutables
 # chmod 755 the script if it doesn't run
 # runs every test in the testCase folder and outputs an html document with results
+
+# **********
+#might need to know output type
+#fix array problems
 
 # goto testCases
 cd ..
@@ -11,14 +15,16 @@ cd testCases
 
 # array where the files of the testCases are kept
 testCaseArray=($(ls))
+echo $testCaseArray
+echo ${testCaseArray[3]}
 # array where results of tests are stored
 results=()
 
-i=1
+i=0
 length=${#testCaseArray[@]}
 
 # loops through test cases with i
-for ((i=1;i<length;i++))
+for ((i=0;i<length;i++))
 do
 	input=${testCaseArray[$i]}
 	# input=testCase0.txt if you only want to do a specific case
@@ -48,16 +54,17 @@ do
 		j=$((j+1))
 	done < "$input"
 	
-	# goto excecutables folder
+	# goto python file folder
 	cd ..
-	cd pyFiles
+	cd project
+	cd src
 
 	# run driver or python file directly
 	driverOutput=$(python -c "import $driver; print($driverMethod($testInput))")
 	# echo $driverOutput
 
 	#compare numbers
-	if [ $driverOutput -eq $oracle ]
+	if [ $driverOutput = $oracle ]
 		then result=("Pass")
 	else result=("FAIL!")
 	fi
@@ -65,11 +72,16 @@ do
 
 	# store results
 	results+=("$testCase --- $driverMethod --- $result <br>")
+
+	#goto cases folder
+	cd ..
+	cd ..
+	cd testCases
 done
 
 # goto results folder, I didn't here. I went to script
 cd ..
-cd script
+cd testCasesExcecutables
 
 # produce html document
 FILENAME=testResults.html
