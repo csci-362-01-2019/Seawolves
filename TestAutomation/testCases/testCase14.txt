@@ -1,0 +1,6 @@
+14
+this method takes in a string with parens around it and a character
+calculate.py
+findchars(text, chars, ofs=0)
+"(hello)", 'a'
+-1

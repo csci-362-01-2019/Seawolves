@@ -2,4 +2,6 @@
 this method takes in a character, and empty set of characters, and an offset
 calculate.py
 findchar(text, chars, ofs=0)
-A, [], 0
+"", 'a'
+-1
+
