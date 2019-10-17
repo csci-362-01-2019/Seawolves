@@ -50,7 +50,7 @@ def calculate_birth_timestamp(age):
 
 
 def calculate_age(birth_timestamp):
-    age_in_seconds = time.time() - birth_timestamp
+    age_in_seconds = 1500000000 - birth_timestamp
     # Round to nearest int
     age = int(math.floor(age_in_seconds / _SECONDS_PER_YEAR) + 0.5)
     return age
