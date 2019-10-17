@@ -6,10 +6,13 @@ positive
 zero
 non-number
 float
-* calculate.py - findchar(text, chars, ofs=0)
+
+* calculate.py - findchar(text, chars, ofs=0) (chars = string)
 empty set
 no text
 char not in text
+offset is negative
+chars is not a string
 
 * functions.py - gcd(a, b)
 non numbers
