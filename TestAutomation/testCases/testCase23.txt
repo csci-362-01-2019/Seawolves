@@ -1,6 +1,6 @@
 23
-this method takes in a negative number and outputs an error
+this method takes in 1
 functions
 functions.factorial
--5
-error
+1
+1

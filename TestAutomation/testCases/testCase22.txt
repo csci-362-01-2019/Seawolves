@@ -1,6 +1,6 @@
 22
-this methods takes in a float and outputs an error
+this methods takes an int that is found using a basic operation
 functions
 functions.factorial
-1.5
-error
+100/2
+30414093201713378043612608166064768844377641568960512000000000000
