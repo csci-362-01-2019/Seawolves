@@ -1,5 +1,5 @@
 13
-this method takes in a character not in set of chars, and set of characters, and an offset
+this method takes in a character not in set of chars, and set of characters
 calculate
 calculate.findchar
 "hello", 'a'

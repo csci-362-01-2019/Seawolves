@@ -1,6 +1,6 @@
 3
-this method should not accept a negative integer
+this method should accept a negative integer
 agepicker
 agepicker.calculate_birth_timestamp
 -5
-fail
+1657680000

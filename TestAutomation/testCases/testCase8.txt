@@ -1,6 +1,6 @@
 8
-this method takes in a zero as input and ouputs a zero
+this method takes in a zero as input
 agepicker
 agepicker.calculate_age
 0
-0
+47

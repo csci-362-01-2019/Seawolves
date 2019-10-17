@@ -1,6 +1,8 @@
 6
-this method does not accept a negative number
+this method does accepts a negative number and outputs an integer
 agepicker
 agepicker.calculate_age
 -1000000
+47
+
 

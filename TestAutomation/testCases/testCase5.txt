@@ -1,6 +1,6 @@
 5
-this method does not accepts a non-integer
+this method accepts a value that is more than what can fit in an integer
 agepicker
 agepicker.calculate_birth_timestamp
-one
-fail
+3000000000
+-946079998500000000

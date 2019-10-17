@@ -1,6 +1,6 @@
 18
-this method takes in a non number and int and outputs an error
+this method takes in a zero
 functions
 functions.gcd
-a, 5
-error
+0, 5
+5

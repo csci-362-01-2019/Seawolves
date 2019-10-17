@@ -1,6 +1,6 @@
 4
-this method does not accept a float
+this method does accept a float
 agepicker
 agepicker.calculate_birth_timestamp
 5.5
-fail
+1326552000

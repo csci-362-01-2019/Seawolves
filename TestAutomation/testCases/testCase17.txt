@@ -1,6 +1,6 @@
 17
-this method takes in a negative number and outputs an error
+this method takes in a negative number
 functions
 functions.gcd
 -3, 5
-error
+1

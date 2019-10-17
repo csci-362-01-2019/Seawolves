@@ -1,6 +1,6 @@
 19
-this method takes in a float and an int and outputs an error
+this method takes in a 3 billion, 3
 functions
 functions.gcd
-1.5, 5
-error
+3000000000, 3
+3

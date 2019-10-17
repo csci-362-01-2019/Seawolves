@@ -1,6 +1,5 @@
 11
-this method takes in a character, and empty set of characters, and an offset
-calculate
+this method takes in a character, and empty set of characters
 calculate.findchar
 "", 'a'
 -1
