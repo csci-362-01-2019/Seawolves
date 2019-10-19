@@ -1,6 +1,6 @@
 #! bash
 
-# AJ, Shaina, David from Seawolves
+# AJ, Shaina, David via Seawolves
 # call explicitly with "bash ./runTests.sh" from testCasesExcecutables
 # chmod 755 the script if it doesn't run
 # runs every test in the testCase folder and outputs an html document with results
@@ -20,6 +20,7 @@ testCaseArray=($(ls))
 #echo ${testCaseArray[4]}
 # array where results of tests are stored
 results=()
+failures=()
 
 i=0
 length=${#testCaseArray[@]}
@@ -67,12 +68,14 @@ do
 	# compare numbers
 	if [ $driverOutput = $oracle ]
 		then result=("Pass")
-	else result=("FAIL!")
+	else 
+		result=("FAIL!")
+		failures+=("testCase$testCase --- $driverMethod<br>input:$testInput<br>output:$driverOutput<br>oracle:$oracle<br><br>")
 	fi
 	# compare strings use = instead
 	# result="whatever"
 	# store results
-	results+=("testCase$testCase --- $driverMethod <br>output: $driverOutput  <br>oracle: $oracle --- $result <br>")
+	results+=("testCase$testCase --- $driverMethod --- $result<br>")
 
 	#goto cases folder
 	cd ..
@@ -97,6 +100,8 @@ cat <<- _Output > $FILENAME
 	<body>
 	<h1>Test Results:</h1>
 	${results[*]}
+	<h1>Failures:</h1>
+	${failures[*]}
 	</body>
 	</html>
 _Output
