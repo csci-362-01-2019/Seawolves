@@ -72,7 +72,7 @@ do
 	# compare strings use = instead
 	# result="whatever"
 	# store results
-	results+=("testCase$testCase --- $driverMethod --- out - $driverOutput - oracle - $oracle --- $result <br>")
+	results+=("testCase$testCase --- $driverMethod --- out   :<br>$driverOutput  oracle:<br>$oracle --- $result <br>")
 
 	#goto cases folder
 	cd ..
