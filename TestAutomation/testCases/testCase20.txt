@@ -3,4 +3,4 @@ this methods takes in two negative numbers and outputs a zero
 functions
 functions.gcd
 -1, -2
-error
+0
