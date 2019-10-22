@@ -1,16 +1,16 @@
 #! bash
 
 # AJ, Shaina, David via Seawolves
-# call explicitly with "bash ./runTests.sh" from testCasesExcecutables
+# call explicitly from TestAutomation Folder with "bash ./scripts/runAllTests.sh" from testCasesExcecutables
 # chmod 755 the script if it doesn't run
-# runs every test in the testCase folder and outputs an html document with results
+# runs every test in the testCase folder and outputs an html document with results available in reports folder
 
 # **********
 #might need to know output type
 #fix array problems
 
 # goto testCases
-cd ..
+#cd ..
 cd testCases
 
 # array where the files of the testCases are kept
@@ -86,7 +86,7 @@ done
 
 # goto results folder, I didn't here. I went to script
 cd ..
-cd testCasesExecutables
+cd reports
 
 # Don't show failures heading if there are none
 f=${#failures[@]}
