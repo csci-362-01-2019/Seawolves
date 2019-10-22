@@ -71,12 +71,12 @@ do
 		then result=("Pass")
 	else 
 		result=("FAIL!")
-		failures+=("testCase$testCase --- $driverMethod<br>input:$testInput<br>output:$driverOutput<br>oracle:$oracle<br><br>")
+		#failures+=("testCase$testCase --- $driverMethod<br>input:$testInput<br>output:$driverOutput<br>oracle:$oracle<br><br>")
 	fi
 	# compare strings use = instead
 	# result="whatever"
 	# store results
-	results+=("testCase$testCase --- $driverMethod --- $result<br>")
+	results+=("<tr><td>$testCase</td><td>$requirement</td><td>$driverMethod</td><td>$testInput</td><td>$driverOutput</td><td>$oracle</td><td>$result</td></td>")
 
 	#goto cases folder
 	cd ..
@@ -106,8 +106,10 @@ cat <<- _Output > $FILENAME
 
 	<body>
 	<h1>Test Results:</h1>
-	${results[*]}
-	${failures[*]}
+	<table border="1" style="table-layout: fixed; width: 100%">
+		<tr><th>Test Case</th><th>Requirement</th><th>Method</th><th>Input</th><th>Output</th><th>Oracle</th><th>Result</th></tr>
+		${results[*]}
+	</table>
 	</body>
 	</html>
 _Output
