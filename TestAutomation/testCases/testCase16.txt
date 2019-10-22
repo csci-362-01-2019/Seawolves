@@ -1,6 +1,7 @@
 16
-this method takes in 2 ints and output another int
+this method takes in 2 ints and outputs another int
 functions
 functions.gcd
 5, 10
 5
+

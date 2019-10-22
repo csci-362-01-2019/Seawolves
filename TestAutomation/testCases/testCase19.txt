@@ -1,5 +1,5 @@
 19
-this method takes in a 3 billion, 3
+this method takes in 3 billion, 3
 functions
 functions.gcd
 3000000000, 3

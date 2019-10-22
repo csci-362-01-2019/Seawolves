@@ -21,6 +21,7 @@ testCaseArray=($(ls))
 # array where results of tests are stored
 results=()
 failures=()
+failures+=("<h1>Failures:</h1>")
 
 i=0
 length=${#testCaseArray[@]}
@@ -85,7 +86,13 @@ done
 
 # goto results folder, I didn't here. I went to script
 cd ..
-#cd testCasesExcecutables
+cd testCasesExecutables
+
+# Don't show failures heading if there are none
+f=${#failures[@]}
+if [ $f -eq 1 ]
+	then failures=()
+fi
 
 # produce html document
 FILENAME=testResults.html
@@ -100,7 +107,6 @@ cat <<- _Output > $FILENAME
 	<body>
 	<h1>Test Results:</h1>
 	${results[*]}
-	<h1>Failures:</h1>
 	${failures[*]}
 	</body>
 	</html>

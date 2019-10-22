@@ -1,6 +1,6 @@
 20
-this methods takes in two negative numbers and outputs a zero
+this methods takes in two negative numbers and outputs -1
 functions
 functions.gcd
 -1, -2
-error
+-1
