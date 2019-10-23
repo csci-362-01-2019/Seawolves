@@ -76,7 +76,7 @@ do
 	# compare strings use = instead
 	# result="whatever"
 	# store results
-	results+=("<tr><td>$testCase</td><td>$requirement</td><td>$driverMethod</td><td>$testInput</td><td>$driverOutput</td><td>$oracle</td><td>$result</td></td>")
+	results+=("<tr><td>$testCase</td><td>$requirement</td><td style=\"word-wrap: break-word\">$driverMethod</td><td>$testInput</td><td style=\"word-wrap: break-word\">$driverOutput</td><td style=\"word-wrap: break-word\">$oracle</td><td>$result</td></td>")
 
 	#goto cases folder
 	cd ..
