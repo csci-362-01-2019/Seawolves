@@ -1,5 +1,5 @@
 05
-this method accepts a value that is more than what can fit in an integer
+Accepts a value that is more than what can fit in an integer, outputs a negative number
 agepicker
 agepicker.calculate_birth_timestamp
 3000000000

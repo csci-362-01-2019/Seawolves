@@ -1,5 +1,5 @@
 10
-this method takes in a float
+Accepts a float and outputs the age based on the float
 agepicker
 agepicker.calculate_age
 1.5

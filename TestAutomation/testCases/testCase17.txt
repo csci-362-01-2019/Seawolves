@@ -1,5 +1,5 @@
 17
-this method takes in a negative number
+Accepts a negative ints and outputs the gcd of the two negative ints
 functions
 functions.gcd
 -3, 5

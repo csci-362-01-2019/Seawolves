@@ -1,5 +1,5 @@
 11
-this method takes in a character, and empty set of characters
+Accepts a character and empty set of characters, output a -1
 calculate
 calculate.findchar
 "", 'a'

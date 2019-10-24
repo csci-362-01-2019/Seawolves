@@ -1,5 +1,5 @@
 16
-this method takes in 2 ints and outputs another int
+Accepts 2 ints and outputs the gcd of the two ints
 functions
 functions.gcd
 5, 10

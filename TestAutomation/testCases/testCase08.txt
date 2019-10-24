@@ -1,5 +1,5 @@
 08
-this method takes in a zero as input
+Accepts a zero as input, calculates the age based on the time stamp
 agepicker
 agepicker.calculate_age
 0

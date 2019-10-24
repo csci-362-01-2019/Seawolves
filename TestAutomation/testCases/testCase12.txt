@@ -1,5 +1,5 @@
 12
-this method takes in a null character, and set of characters, and an offset
+Accepts a null character and set of characters and outputs a -1
 calculate
 calculate.findchar
 "abc", ''

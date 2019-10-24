@@ -1,5 +1,5 @@
 19
-this method takes in 3 billion, 3
+Accepts a very large number and a positive int, outputs the gcd of the two numbers
 functions
 functions.gcd
 3000000000, 3
