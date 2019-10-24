@@ -1,5 +1,5 @@
 22
-this methods takes an int that is found using a basic operation
+this methods takes an int that is found using a basic operation and outputs the factorial of that value
 functions
 functions.factorial
 100/2

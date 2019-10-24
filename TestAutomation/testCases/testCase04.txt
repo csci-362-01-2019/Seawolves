@@ -1,5 +1,5 @@
 04
-this method does accept a float
+Accepts a float, outputs the birth time stamp based on the float
 agepicker
 agepicker.calculate_birth_timestamp
 5.5

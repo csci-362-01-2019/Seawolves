@@ -1,5 +1,5 @@
 23
-this method takes in 1
+Accepts a 1 and outputs a 1
 functions
 functions.factorial
 1

@@ -1,5 +1,5 @@
 24
-this method takes in a non-number and outputs an error
+Accepts a large number and outputs the factorial of that number
 functions
 functions.factorial
 100

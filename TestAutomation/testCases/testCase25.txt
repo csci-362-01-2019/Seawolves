@@ -1,5 +1,5 @@
 25
-this method takes in a zero and outputs a 1
+Accepts a 0 and outputs a 1
 functions
 functions.factorial
 0

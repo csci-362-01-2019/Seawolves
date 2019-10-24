@@ -1,5 +1,5 @@
 01
-accepts postive integer and outputs timestamp
+Accept positive integer, output the birth time stamp based on the input
 agepicker
 agepicker.calculate_birth_timestamp
 5

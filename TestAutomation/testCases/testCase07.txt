@@ -1,5 +1,5 @@
 07
-this method accepts a positive integer
+Accepts a positive integer, calculate the age based on the timestamp
 agepicker
 agepicker.calculate_age
 1000000

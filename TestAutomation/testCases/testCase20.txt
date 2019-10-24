@@ -1,5 +1,5 @@
 20
-this methods takes in two negative numbers and outputs -1
+Accepts two negative numbers and outputs -1
 functions
 functions.gcd
 -1, -2

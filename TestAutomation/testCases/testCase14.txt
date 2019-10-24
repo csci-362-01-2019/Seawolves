@@ -1,5 +1,5 @@
 14
-this method takes in a string with parens around it and a character
+Accepts a string with parens around it and a character, outputs a -1
 calculate
 calculate.findchar
 "(hello)", 'a'
