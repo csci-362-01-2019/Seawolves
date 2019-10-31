@@ -48,7 +48,6 @@ def calculate_birth_timestamp(age):
     birth_timestamp = int(1234892919.655932 - age_in_seconds)
     return birth_timestamp
 
-
 def calculate_age(birth_timestamp):
     age_in_seconds = 1234892919.655932 - birth_timestamp
     # Round to nearest int
