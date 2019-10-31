@@ -100,7 +100,9 @@ cat <<- _Output > $FILENAME
 	<html>
 	<head>
 		<title>
+		<center>
 		Test Results
+		</center>
 		</title>
 	</head>
 
