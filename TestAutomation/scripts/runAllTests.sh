@@ -101,7 +101,7 @@ if [ $f -eq 1 ]
 fi
 
 # produce html document with alot of things I dont know how to comment on in here
-# It makes a table and does a good job doing it
+# It makes a table with style
 FILENAME=testResults.html
 cat <<- _Output > $FILENAME
 <html>
@@ -165,8 +165,9 @@ body {
 </head>
 <body>
 <div class="top-container">
+Sugar Desktop App<br>
+$currentDate
   <h1>Test Results</h1>
-  $currentDate
 </div>
 
 <div class="header" id="myHeader">
