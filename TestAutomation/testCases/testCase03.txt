@@ -4,4 +4,7 @@ agepicker
 agepicker.calculate_birth_timestamp
 -5
 1392572919
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8f5be31c556d33afa9a3eb79490ff66fdc7db560
