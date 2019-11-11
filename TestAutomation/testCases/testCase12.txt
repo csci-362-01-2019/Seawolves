@@ -1,5 +1,5 @@
 12
-Accepts a null character and set of characters and outputs a -1
+Accepts set of characters and a character, output the index of the character
 calculate
 calculate.findchar
 "abc", ''

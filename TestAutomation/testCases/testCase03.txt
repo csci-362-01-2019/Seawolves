@@ -1,10 +1,6 @@
 03
-Accepts a negative integer, output the birth time stamp
+Accepts an age and outputs the birth time stamp in seconds
 agepicker
 agepicker.calculate_birth_timestamp
 -5
 1392572919
-<<<<<<< HEAD
-
-=======
->>>>>>> 8f5be31c556d33afa9a3eb79490ff66fdc7db560

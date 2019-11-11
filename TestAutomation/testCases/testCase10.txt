@@ -1,5 +1,5 @@
 10
-Accepts a float and outputs the age based on the float
+Accepts a birth time stamp and outputs the age
 agepicker
 agepicker.calculate_age
 1.5

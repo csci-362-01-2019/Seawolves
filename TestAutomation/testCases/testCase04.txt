@@ -1,5 +1,5 @@
 04
-Accepts a float, outputs the birth time stamp based on the float
+Accepts an age and outputs the birth time stamp in seconds
 agepicker
 agepicker.calculate_birth_timestamp
 5.5

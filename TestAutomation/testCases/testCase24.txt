@@ -1,5 +1,5 @@
 24
-Accepts a large number and outputs the factorial of that number
+Accepts a number and outputs the factorial of that number
 functions
 functions.factorial
 100

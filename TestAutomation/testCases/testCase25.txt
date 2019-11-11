@@ -1,5 +1,5 @@
 25
-Accepts a 0 and outputs a 1
+Accepts a number and outputs the factorial of that number
 functions
 functions.factorial
 0

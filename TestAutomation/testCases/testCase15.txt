@@ -1,5 +1,5 @@
 15
-Accepts a string with one paren in the middle and a character, outputs a -1
+Accepts set of characters and a character, output the index of the character
 calculate
 calculate.findchar
 "he(llo", 'l'

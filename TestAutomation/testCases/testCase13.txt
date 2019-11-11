@@ -1,5 +1,5 @@
 13
-Accepts a character not in set of chars and the set of chars and outputs a -1
+Accepts set of characters and a character, output the index of the character
 calculate
 calculate.findchar
 "hello", 'a'

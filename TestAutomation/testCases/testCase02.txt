@@ -1,5 +1,5 @@
 02
-Accepts zero as an input, output birth time stamp based on the input
+Accepts an age and outputs the birth time stamp in seconds
 agepicker
 agepicker.calculate_birth_timestamp
 0

@@ -1,5 +1,5 @@
 09
-Accepts a very large number(greater than what can fit in an int), outputs a negative number
+Accepts a birth time stamp and outputs the age
 agepicker
 agepicker.calculate_age
 3000000000

@@ -1,5 +1,5 @@
 08
-Accepts a zero as input, calculates the age based on the time stamp
+Accepts a birth time stamp and outputs the age
 agepicker
 agepicker.calculate_age
 0

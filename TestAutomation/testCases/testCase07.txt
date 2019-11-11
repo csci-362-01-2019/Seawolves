@@ -1,5 +1,5 @@
 07
-Accepts a positive integer, calculate the age based on the timestamp
+Accepts a birth time stamp and outputs the age
 agepicker
 agepicker.calculate_age
 1000000

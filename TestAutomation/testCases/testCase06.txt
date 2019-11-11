@@ -1,5 +1,5 @@
 06
-Accepts a negative number and outputs an integer
+Accepts a birth time stamp and outputs the age
 agepicker
 agepicker.calculate_age
 -1000000

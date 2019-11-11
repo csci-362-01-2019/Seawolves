@@ -1,5 +1,5 @@
 01
-Accepts integer and outputs the birth time stamp in seconds
+Accepts an age and outputs the birth time stamp in seconds
 agepicker
 agepicker.calculate_birth_timestamp
 5
