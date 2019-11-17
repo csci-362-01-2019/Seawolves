@@ -1,6 +1,6 @@
 #! bash
 
-# AJ, Shaina, David via Seawolves
+# AJ Williams, Shaina Mainar, David  via Seawolves
 # call explicitly from TestAutomation Folder with "bash ./scripts/runAllTests.sh" from testCasesExcecutables
 # if it doesn't run
 # do "chmod 755 ./scripts/runAllTests.sh" (without the quotation marks)
@@ -24,7 +24,6 @@ testCaseArray=($(ls))
 # array where results of tests are stored
 results=()
 failures=()
-failures+=("<h1>Failures:</h1>")
 
 # get the date
 currentDate=$(date)
@@ -77,7 +76,7 @@ do
 		then result=("Pass")
 	else 
 		result=("FAIL!")
-		#failures+=("testCase$testCase --- $driverMethod<br>input:$testInput<br>output:$driverOutput<br>oracle:$oracle<br><br>")
+		#failures+=("<tr><td>$testCase</td><td>$requirement</td><td style=\"word-wrap: break-word\">$driverMethod</td><td>$testInput</td><td style=\"word-wrap: break-word\">$driverOutput</td><td style=\"word-wrap: break-word\">$oracle</td><td>$result</td></td>")
 	fi
 	# compare strings use = instead
 	# result="whatever"
@@ -94,14 +93,8 @@ done
 cd ..
 cd reports
 
-# Don't show failures heading if there are none
-f=${#failures[@]}
-if [ $f -eq 1 ]
-	then failures=()
-fi
 
-# produce html document with alot of things I dont know how to comment on in here
-# It makes a table with style
+# produce html document with style
 FILENAME=testResults.html
 cat <<- _Output > $FILENAME
 <html>
@@ -203,7 +196,8 @@ $currentDate
 
 
 		${results[*]}
-	</div>
+		
+</div>
 
 <script>
 window.onscroll = function() {myFunction()};

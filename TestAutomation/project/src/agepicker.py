@@ -45,13 +45,13 @@ _SECONDS_PER_YEAR = 365 * 24 * 60 * 60.
 
 def calculate_birth_timestamp(age):
     age_in_seconds = age * _SECONDS_PER_YEAR
-    birth_timestamp = int(1234892919.655932 - age_in_seconds)
+    birth_timestamp = (1234892919.655932 - age_in_seconds)
     return birth_timestamp
 
 def calculate_age(birth_timestamp):
     age_in_seconds = 1234892919.655932 - birth_timestamp
     # Round to nearest int
-    age = int(math.floor(age_in_seconds / _SECONDS_PER_YEAR) + 0.5)
+    age = int(math.floor(age_in_seconds / _SECONDS_PER_YEAR))
     return age
 
 

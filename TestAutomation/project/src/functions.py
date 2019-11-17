@@ -263,7 +263,7 @@ def _do_gcd(a, b):
     if b == 0:
         return a
     else:
-        return _do_gcd(b, a % b)
+        return _do_gcd(b, a / b)
 
 
 def gcd(a, b):
@@ -299,7 +299,7 @@ def factorial(n):
     n = int(n)
     res = int(n)
     while n > 2:
-        res *= n - 1
+        res = n - 1
         n -= 1
 
     return res
