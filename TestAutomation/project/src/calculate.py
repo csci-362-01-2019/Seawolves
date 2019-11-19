@@ -57,7 +57,7 @@ def findchar(text, chars, ofs=0):
         elif text[i] == '(':
             level += 1
         elif text[i] == ')':
-            level += 1
+            level -= 1
 
     return -1
 
