@@ -1,5 +1,5 @@
 21
-Accepts a number and outputs the factorial of that number
+Accepts a postive integer and outputs the factorial of that number
 functions
 functions.factorial
 3

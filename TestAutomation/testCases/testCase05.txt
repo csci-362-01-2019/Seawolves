@@ -1,5 +1,5 @@
 05
-Accepts an age and outputs the birth time stamp in seconds
+Accepts a very large long integer and outputs the birth timestamp from the time epoch
 agepicker
 agepicker.calculate_birth_timestamp
 3000000000

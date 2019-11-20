@@ -1,5 +1,5 @@
 15
-Accepts set of characters and a character, output the index of the character
+Accepts a string of characters with a non-alpha character and a character, output the index of the character in the string
 calculate
 calculate.findchar
 "he(llo", 'l'
