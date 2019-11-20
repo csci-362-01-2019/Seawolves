@@ -1,5 +1,5 @@
 22
-Accepts a number and outputs the factorial of that number
+Accepts an integer found using integer division and outputs the factorial of that number
 functions
 functions.factorial
 100/2

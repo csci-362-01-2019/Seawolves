@@ -1,5 +1,5 @@
 17
-Accepts 2 numbers and outputs the greatest common denominator of the numbers
+Accepts a positive and negative integer and outputs the greatest common denominator of the numbers
 functions
 functions.gcd
 -3, 5
